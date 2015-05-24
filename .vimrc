@@ -26,8 +26,9 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'ervandew/supertab'
-Plugin 'LaTeX-Box-Team/LaTeX-Box'
+" Plugin 'LaTeX-Box-Team/LaTeX-Box'
 Plugin 'honza/vim-snippets'
+Plugin 'bling/vim-bufferline'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -64,6 +65,7 @@ endif
 
 " set dark background
 set background=dark
+colorscheme molokai
 " set background=light
 
 if has('gui_running')
@@ -71,7 +73,6 @@ if has('gui_running')
     set background=light
     "colorscheme default
     "colorscheme desert
-    colorscheme molokai
     "colorscheme koehler
 endif
 
