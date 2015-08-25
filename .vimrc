@@ -206,6 +206,8 @@ if has("gui_macvim")
     set guifont=Menlo\ Regular:h15
 endif
 
+" normal backspace
+set backspace=indent,eol,start
 
 " Initialize directories {
     function! InitializeDirectories()
