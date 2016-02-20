@@ -32,6 +32,7 @@ Plugin 'bling/vim-bufferline'
 Plugin 'google.vim'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
+Plugin 'vim-scripts/a.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -211,6 +212,9 @@ endif
 
 " normal backspace
 set backspace=indent,eol,start
+
+set tags=tags;
+set autochdir
 
 " Initialize directories {
     function! InitializeDirectories()
