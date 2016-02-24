@@ -214,7 +214,7 @@ endif
 set backspace=indent,eol,start
 
 set tags=tags;
-set autochdir
+" set autochdir
 
 " Initialize directories {
     function! InitializeDirectories()
