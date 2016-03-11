@@ -31,8 +31,11 @@ Plugin 'honza/vim-snippets'
 Plugin 'bling/vim-bufferline'
 Plugin 'google.vim'
 Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
+"Plugin 'xolox/vim-easytags'
 Plugin 'vim-scripts/a.vim'
+Plugin 'mhinz/vim-startify'
+Plugin 'mhinz/vim-signify'
+Plugin 'jpalardy/spacehi.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
