@@ -1,3 +1,6 @@
+scriptencoding utf-8
+set encoding=utf-8
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -33,6 +36,7 @@ Plugin 'google.vim'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'mattn/emmet-vim'
+Plugin 'vim-scripts/a.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -212,6 +216,9 @@ endif
 
 " normal backspace
 set backspace=indent,eol,start
+
+set tags=tags;
+" set autochdir
 
 " Initialize directories {
     function! InitializeDirectories()
