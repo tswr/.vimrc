@@ -1,3 +1,6 @@
+scriptencoding utf-8
+set encoding=utf-8
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -32,6 +35,7 @@ Plugin 'bling/vim-bufferline'
 Plugin 'google.vim'
 Plugin 'xolox/vim-misc'
 "Plugin 'xolox/vim-easytags'
+Plugin 'mattn/emmet-vim'
 Plugin 'vim-scripts/a.vim'
 Plugin 'mhinz/vim-startify'
 Plugin 'mhinz/vim-signify'
