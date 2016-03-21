@@ -22,7 +22,8 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'godlygeek/tabular'
 Plugin 'majutsushi/tagbar'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'spf13/vim-colors'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -255,4 +256,3 @@ set tags=tags;
         endfor
     endfunction
     call InitializeDirectories()
-"
