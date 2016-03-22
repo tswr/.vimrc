@@ -256,3 +256,27 @@ set tags=tags;
         endfor
     endfunction
     call InitializeDirectories()
+
+" airline
+
+let g:airline_mode_map = {
+    \ '__' : '-',
+    \ 'n'  : 'N',
+    \ 'i'  : 'I',
+    \ 'R'  : 'R',
+    \ 'c'  : 'C',
+    \ 'v'  : 'V',
+    \ 'V'  : 'V',
+    \ '^V' : 'V',
+    \ 's'  : 'S',
+    \ 'S'  : 'S',
+    \ '^S' : 'S',
+    \ }
+
+let g:airline_left_sep = '»'
+let g:airline_right_sep = '«'
+
+" (bufferline or filename)
+let g:airline_section_c = '%f'
+" (percentage, line number, column number)
+let g:airline_section_z = '%3p%%: %3l:%3c [%2B]'
