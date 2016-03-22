@@ -279,4 +279,8 @@ let g:airline_right_sep = '«'
 " (bufferline or filename)
 let g:airline_section_c = '%f'
 " (percentage, line number, column number)
-let g:airline_section_z = '%3p%%: %3l:%3c [%2B]'
+let g:airline_section_z = '%3p%%: %3l:%3c [%02B]'
+
+" colorcolumn
+set cc=80
+hi ColorColumn guibg=#3D4646 ctermbg=238
