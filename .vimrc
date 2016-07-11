@@ -15,7 +15,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mbbill/undotree'
 Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
 " Plugin 'scrooloose/syntastic'
@@ -284,3 +284,5 @@ let g:airline_section_z = '%3p%%: %3l:%3c [%02B]'
 " colorcolumn
 set cc=80
 hi ColorColumn guibg=#3D4646 ctermbg=238
+
+autocmd FileType c,cpp,python,sh autocmd BufWritePre <buffer> :%s/\s\+$//e
