@@ -1,5 +1,4 @@
 scriptencoding utf-8
-set encoding=utf-8
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -129,9 +128,10 @@ set mousehide " hide the mouse while typing
 "set showtabline=0 "Вырубаем черточки на табах
 "set foldcolumn=1
 
-"Вырубаем .swp и ~ (резервные) файлы
+"Prevent vim from creating swap (.swp) and backup (~) files
 set backup
 "set noswapfile
+
 set encoding=utf-8 " default encoding
 set fileencodings=utf-8,cp1251,cp866
 
