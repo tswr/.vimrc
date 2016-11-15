@@ -106,7 +106,7 @@ set hlsearch            " Enable search highlighting
 set autowrite           " Automatically save before commands like :next and :make
 set hidden              " Hide buffers when they are abandoned
 set cursorline          " Highlight current line
-set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
+set list listchars=tab:»·,trail:·,precedes:<,extends:> " Highlight problematic whitespace
 set modelines=0
 
 "set mouse=a             " Enable mouse usage (all modes)
