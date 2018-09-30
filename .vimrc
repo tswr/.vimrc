@@ -40,6 +40,7 @@ Plugin 'vim-scripts/a.vim'
 Plugin 'mhinz/vim-startify'
 Plugin 'mhinz/vim-signify'
 Plugin 'jpalardy/spacehi.vim'
+Plugin 'rking/ag.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
