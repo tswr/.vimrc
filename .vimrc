@@ -41,6 +41,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'mhinz/vim-signify'
 Plugin 'jpalardy/spacehi.vim'
 Plugin 'rking/ag.vim'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
